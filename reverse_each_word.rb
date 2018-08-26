@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  words = sentence.join
+  words = sentence.to_a
   words.collect do |word| 
     word.reverse 
 end 
